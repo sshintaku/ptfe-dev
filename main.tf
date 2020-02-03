@@ -8,7 +8,7 @@ resource "aws_instance" "example" {
   instance_type = "t2.micro"
   
   tags = {
-    Name = "WFleming-PTFE"
+    Name = "WFleming-TaggedInstance"
     Owner = "wfleming@hashicorp.com"
   }
 }
