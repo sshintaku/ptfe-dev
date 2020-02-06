@@ -10,5 +10,6 @@ resource "aws_instance" "example" {
   tags = {
     Name = "WFleming-TaggedInstance"
     Owner = "wfleming@hashicorp.com"
+    Keep = "yes"
   }
 }
