@@ -8,8 +8,8 @@ resource "aws_instance" "example" {
   instance_type = "t2.micro"
   
   tags = {
-    Name = "WFleming-TaggedInstance"
-    Owner = "wfleming@hashicorp.com"
+    Name = "InstanceName"
+    Owner = "email@domain.com"
     Keep = "yes"
   }
 }
